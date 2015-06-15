@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/content"
+    android:layout_width="1280px"
+    android:layout_height="720px"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <org.ros.android.view.RosImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="400px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5px"
+        android:orientation="vertical">
+
+        <org.ros.android.view.VirtualJoystickView
+            android:id="@+id/virtual_joystick"
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+        <RelativeLayout
+            android:layout_width="150px"
+            android:layout_height="230px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="150px"
+                android:layout_height="80px"
+                android:src="@drawable/teresa_logo_rec"
+                android:layout_alignParentTop="true" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true">
+
+                <org.ros.android.view.camera.RosCameraPreviewView
+                    android:id="@+id/ros_camera_preview_view"
+                    android:layout_width="150px"
+                    android:layout_height="150px" />
+
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@drawable/circle_light" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/head_up"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:src="@drawable/head_up"
+            android:visibility="invisible"
+            app:cb_color="@color/teresa_light"
+            app:cb_pressedRingWidth="10px" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/tilt_up"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:src="@drawable/tilt_up"
+                android:visibility="invisible"
+                app:cb_color="@color/teresa_light"
+                app:cb_pressedRingWidth="10px" />
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/tilt_down"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:src="@drawable/tilt_down"
+                android:visibility="invisible"
+                app:cb_color="@color/teresa_light"
+                app:cb_pressedRingWidth="10px" />
+
+        </LinearLayout>
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/head_down"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:src="@drawable/head_down"
+            android:visibility="invisible"
+            app:cb_color="@color/teresa_light"
+            app:cb_pressedRingWidth="10px" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+    </RelativeLayout>

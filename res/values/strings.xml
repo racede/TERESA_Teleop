@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">TERESA Teleop</string>
+  <string name="switch_camera">Switch camera</string>
+  <string name="microphone">Microphone</string>
+  <string name="show_head">Show head movement</string>
+  <string name="auto_snapping">Auto Snapping</string>
+</resources>

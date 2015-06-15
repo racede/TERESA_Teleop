@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_keyboard"
+        android:icon="@drawable/ic_action_view_as_grid"
+        android:title="@string/show_head"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_switch_camera"
+        android:icon="@drawable/ic_action_switch_camera"
+        android:title="@string/switch_camera"
+        android:showAsAction="always" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/virtual_joystick_snap"
+        android:title="@string/auto_snapping"
+        android:showAsAction="never" />
+</menu><!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/res/menu/main_activity_actions.xml -->

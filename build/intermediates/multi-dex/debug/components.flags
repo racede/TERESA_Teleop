@@ -1,0 +1,38 @@
+-injars /home/racede/virgin_android_core/src/android_core/android_tutorial_teleop/build/intermediates/multi-dex/debug/allclasses.jar
+-outjars /home/racede/virgin_android_core/src/android_core/android_tutorial_teleop/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /home/racede/Android/Sdk/build-tools/21.1.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration /home/racede/virgin_android_core/src/android_core/android_tutorial_teleop/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class org.ros.android.android_tutorial_teleop.MainActivity {
+    <init>();
+}
+
+-keep class org.ros.android.MasterChooser {
+    <init>();
+}
+
+-keep class org.ros.android.NodeMainExecutorService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="teresa_light">#3DA0DD</color>
+    <declare-styleable name="CircleButton"><attr format="color" name="cb_color"/><attr format="dimension" name="cb_pressedRingWidth"/></declare-styleable>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">TERESA Teleop</string>
+    <string name="auto_snapping">Auto Snapping</string>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="cancel">Cancel</string>
+    <string name="master_uri_hint">http://localhost:11311/</string>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="microphone">Microphone</string>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="new_master">New Public Master</string>
+    <string name="new_private_master">New Private Master</string>
+    <string name="qr_code">Read QRCode</string>
+    <string name="select_interface">Select network interface</string>
+    <string name="show_advanced">Show advanced options</string>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="show_head">Show head movement</string>
+    <string name="switch_camera">Switch camera</string>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="uri_text">Master URI:</string>
+    <string name="use_master">Connect</string>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="TERESAActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/teresa_light</item>
+    </style>
+    <style name="TERESAActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/TERESAActionBar</item>
+    </style>
+    <!-- From: file:/home/racede/Escritorio/TERESA_Teleop/src/android_core/android_teresa_teleop/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="padded">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+</resources>
